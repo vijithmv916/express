@@ -1,0 +1,28 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "learn",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "build": "tsc"
+  },
+  "author": "vijith",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.6",
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.10",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0"
+  }
+}
